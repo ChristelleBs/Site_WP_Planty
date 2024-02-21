@@ -3,9 +3,7 @@
     src: url('../fonts/Syne-VariableFont_wght.ttf') format('truetype');
 }
 
-.wpcf7-form-control-wrap .wpcf7-text {
-    height: 120px;
-}
+
 
 /* Header - Menu */
 .hfe-menu-item {
@@ -55,6 +53,45 @@
     margin: 50px 200px;
 }
 
+
+
+/* number-box img */
+
+.contain-number ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    padding-left: 45px;
+    padding-right: 30px;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contain-number ul li {
+    flex: 1 0 200px;
+    margin-right: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contain-number ul li img {
+    display: block;
+    height: auto;
+}
+
+.contain-number ul li span {
+    display: block;
+    text-align: center;
+    padding-top: 15px;
+    transform: translateX(60%);
+    height: 57px;
+    width: 56px;
+    border-color: none;
+}
+
 /* Formulaire */
 .form {
     background-color: #3B8E46;
@@ -66,43 +103,28 @@
     font-family: 'Syne', 'Times New Roman', Times, serif;
     font-size: 30px;
     color: white !important;
+
+}
+
+.wpcf7-form-control-wrap .wpcf7-text {
+    height: 71px;
+    width: 383px;
+   
 }
 
 .form ul li {
     list-style: none;
 }
 
-/* number box */
-.contain-number {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.contain-number ul {
-    display: flex;
-    padding-left: 40px;
-    padding-right: 22px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 100%;
-    padding-top: 15px;
-    margin: 0 auto;
-}
-
-.contain-number ul li {
-    width: 57px;
-    height: 56px;
-    text-align: center;
-    line-height: 39px;
-}
-
 /* form */
+
 .contain-form {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     padding-top: 30px;
+    width: 100%;
 }
 
 .separator {
@@ -112,68 +134,50 @@
 
 .part-left,
 .part-right {
-    flex: 1;
-    padding: 0 10px;
-}
-
-.part-left {
-    margin-left: 200px;
-    margin-right: 70px;
-}
-
-.part-right {
-    margin-right: 200px;
-    margin-left: 70px;
+    margin-bottom: 20px;
+    padding: 0;
 }
 
 .label {
     font-family: 'Syne', 'Times New Roman', Times, serif;
     font-style: 20px;
     color: white;
-    /* height: 71px !important; */
 }
+
+.btn-form {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    padding-left: 73px;
+
+}
+
+input[type="submit"] {
+    font-family: 'Syne', 'Times New Roman', Times, serif;
+    font-style: 20px;
+    color: white;
+    background-color: #E0B9B4;
+    height: 55px;
+    width: 198px;
+}
+
+input[type="submit"]:hover {
+    background-color: #C02E44;
+}
+
 
 /*Media query : max-width:768px*/
 /* MQ 768px Formulaire*/
 @media screen and (max-width: 768px) {
-    .contain-number ul {
-        width: 22%;
-        height: 50px;
-    }
-
-    .contain-number ul li {
-        display: block;
-        width: auto;
-        height: auto;
-        text-align: center;
-        line-height: normal;
-        margin: 25px;
-        margin-bottom: 200px;
-    }
-
-    .box1 {
-        transform: translateY(-738px);
-    }
-
-    .box2 {
-        transform: translateY(-782px);
-    }
-
-    .box3 {
-        transform: translateY(-828px);
-    }
-
-    .box4 {
-        transform: translateY(-873px);
-    }
-
     .form {
-        height: 850px;
-
+        height: 1500px;
     }
 
-    .contain-form {
-        flex-direction: column;
+    .contain-number ul li span {
+        margin-bottom: 55px;
     }
 
     .part-left,
@@ -187,54 +191,32 @@
     }
 
     .separator-1 {
-        width: 50%;
+        width: 90%;
+        margin: 0 auto;
     }
-
+    .btn-form{
+        padding: 20px 0 0 73px;
+    }
 }
-
-
 
 
 /*Media query : max-width:320px*/
 
 @media screen and (max-width: 320px) {
 
-    .contain-number ul {
-        width: 55%;
-        height: 50px;
+    /* MQ 320px Formulaire*/
+    .form {
+        height: 1850px;
     }
 
     .contain-number ul li {
-        display: block;
-        width: auto;
-        height: auto;
-        text-align: center;
-        line-height: normal;
-        margin: 25px;
-        margin-bottom: 200px;
+       padding-right: 30px;
+       
     }
-
-    .box1 {
-        transform: translateY(-660px);
+    .contain-number ul li span{
+        padding-right: 5px;
+         
     }
-
-    .box2 {
-        transform: translateY(-715px);
-    }
-
-    .box3 {
-        transform: translateY(-770px);
-    }
-
-    .box4 {
-        transform: translateY(-835px);
-    }
-
-    /* MQ 320px Formulaire*/
-    .form {
-        height: 520px;
-    }
-
     .contain-form {
         flex-direction: column;
     }
@@ -250,7 +232,8 @@
     }
 
     .separator-1 {
-        display: none;
+        width: 90%;
+        margin: 0 auto;
     }
 
 
@@ -258,5 +241,9 @@
     .part-right h2 {
         margin-top: 0;
         font-size: 20px;
+    }
+
+    .btn-form {
+        padding: 10px 0 0 52px;
     }
 }
