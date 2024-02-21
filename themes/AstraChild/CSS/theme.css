@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'Syne';
+    src: url('../fonts/Syne-VariableFont_wght.ttf') format('truetype');
+}
+
+.wpcf7-form-control-wrap .wpcf7-text {
+    height: 120px;
+}
+
+/* Header - Menu */
+.hfe-menu-item {
+    font-family: 'Syne', 'Times New Roman', Times, serif !important;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.elementor-20 .elementor-element.elementor-element-df50303.e-con {
+    top: 0;
+    background-color: white;
+    height: 80px;
+    z-index: 10;
+}
+
+.elementor-heading-title elementor-size-default {
+    align-items: center !important;
+}
+
+/*Footer */
+.footer-width-fixer {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+/* Hook */
+.menu-admin {
+    font-family: 'syne', 'Times New Roman', Times, serif;
+    color: black;
+}
+
+:hover.menu-admin {
+    color: black;
+    transform: scale(0.75);
+}
+
+/*1er séparateur*/
+
+.separator-1 {
+    width: 74%;
+    height: 1px;
+    background-color: white;
+    margin: 50px 200px;
+}
+
+/* Formulaire */
+.form {
+    background-color: #3B8E46;
+    width: 100%;
+    padding-top: -20px;
+}
+
+.form h2 {
+    font-family: 'Syne', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white !important;
+}
+
+.form ul li {
+    list-style: none;
+}
+
+/* number box */
+.contain-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contain-number ul {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 22px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 15px;
+    margin: 0 auto;
+}
+
+.contain-number ul li {
+    width: 57px;
+    height: 56px;
+    text-align: center;
+    line-height: 39px;
+}
+
+/* form */
+.contain-form {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.separator {
+    width: 1px;
+    background-color: white;
+}
+
+.part-left,
+.part-right {
+    flex: 1;
+    padding: 0 10px;
+}
+
+.part-left {
+    margin-left: 200px;
+    margin-right: 70px;
+}
+
+.part-right {
+    margin-right: 200px;
+    margin-left: 70px;
+}
+
+.label {
+    font-family: 'Syne', 'Times New Roman', Times, serif;
+    font-style: 20px;
+    color: white;
+    /* height: 71px !important; */
+}
+
+/*Media query : max-width:768px*/
+/* MQ 768px Formulaire*/
+@media screen and (max-width: 768px) {
+    .contain-number ul {
+        width: 22%;
+        height: 50px;
+    }
+
+    .contain-number ul li {
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+        line-height: normal;
+        margin: 25px;
+        margin-bottom: 200px;
+    }
+
+    .box1 {
+        transform: translateY(-738px);
+    }
+
+    .box2 {
+        transform: translateY(-782px);
+    }
+
+    .box3 {
+        transform: translateY(-828px);
+    }
+
+    .box4 {
+        transform: translateY(-873px);
+    }
+
+    .form {
+        height: 850px;
+
+    }
+
+    .contain-form {
+        flex-direction: column;
+    }
+
+    .part-left,
+    .part-right {
+        position: relative;
+        padding: 0;
+        margin: 0 auto;
+        flex-direction: column;
+        width: 60%;
+        margin-bottom: 20px;
+    }
+
+    .separator-1 {
+        width: 50%;
+    }
+
+}
+
+
+
+
+/*Media query : max-width:320px*/
+
+@media screen and (max-width: 320px) {
+
+    .contain-number ul {
+        width: 55%;
+        height: 50px;
+    }
+
+    .contain-number ul li {
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: center;
+        line-height: normal;
+        margin: 25px;
+        margin-bottom: 200px;
+    }
+
+    .box1 {
+        transform: translateY(-660px);
+    }
+
+    .box2 {
+        transform: translateY(-715px);
+    }
+
+    .box3 {
+        transform: translateY(-770px);
+    }
+
+    .box4 {
+        transform: translateY(-835px);
+    }
+
+    /* MQ 320px Formulaire*/
+    .form {
+        height: 520px;
+    }
+
+    .contain-form {
+        flex-direction: column;
+    }
+
+    .part-left,
+    .part-right {
+        position: relative;
+        padding: 0;
+        margin: 0 auto;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .separator-1 {
+        display: none;
+    }
+
+
+    .part-left h2,
+    .part-right h2 {
+        margin-top: 0;
+        font-size: 20px;
+    }
+}

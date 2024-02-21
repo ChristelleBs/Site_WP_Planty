@@ -1,7 +1,7 @@
 === Royal Elementor Addons and Templates ===
 Contributors: WP Royal, rubeushagrid13, cyberpinky, elementoraddonswpr, ggedenidze1982, wprduke
 Tags: elementor, elementor templates, elementor addons, widgets for elementor, elementor widgets, elementor mega menu, elementor woocommerce builder, theme builder, header footer builder, elementor post grid, elementor product grid, addons for elementor
-Stable tag: 1.3.88
+Stable tag: 1.3.91
 Requires at least: 5.0
 Tested up to: 6.4.3
 Requires PHP: 5.6
@@ -136,7 +136,8 @@ and other custom branding related settings)
 - [**Electronic Store**](https://demosites.royal-elementor-addons.com/estore-v1/?ref=rea-wpo-pp-details-tab)
 - [**Auto Parts Store**](https://demosites.royal-elementor-addons.com/woo-auto-parts-v1/?ref=rea-wpo-pp-details-tab)
 - [**Fashion 2**](https://demosites.royal-elementor-addons.com/fashion-v2/?ref=rea-wpo-pp-details-tab)
-- [**Woo Shop**](https://demosites.royal-elementor-addons.com/wooshop-v1/?ref=rea-wpo-pp-details-tab)
+- [**Woo Shop 1**](https://demosites.royal-elementor-addons.com/wooshop-v1/?ref=rea-wpo-pp-details-tab)
+- [**Woo Shop 2**](https://demosites.royal-elementor-addons.com/shop-wooshop-v2/?ref=rea-wpo-pp-details-tab)
 - [**Fashion 1**](https://demosites.royal-elementor-addons.com/fashion-v1/?ref=rea-wpo-pp-details-tab)
 - [**Grocery Store**](https://demosites.royal-elementor-addons.com/grocery-store-v1/?ref=rea-wpo-pp-details-tab)
 - [**Furniture Store**](https://demosites.royal-elementor-addons.com/furniture-shop-v1/?ref=rea-wpo-pp-details-tab)
@@ -199,6 +200,7 @@ and other custom branding related settings)
 - [**Fytness & Gym**](https://demosites.royal-elementor-addons.com/fitness-gym-v1/?ref=rea-wpo-pp-details-tab)
 - [**Business Consulting**](https://demosites.royal-elementor-addons.com/business-consulting-v1/?ref=rea-wpo-pp-details-tab)
 - [**Car Repair**](https://demosites.royal-elementor-addons.com/car-repair-v1/?ref=rea-wpo-pp-details-tab)
+- [**Amazon Product Landing Page**](https://demosites.royal-elementor-addons.com/amazon-landing-page-v1/?ref=rea-wpo-pp-details-tab)
 - [**Business Landing Page**](https://demosites.royal-elementor-addons.com/landing-page-business-v1/?ref=rea-wpo-pp-details-tab)
 - [**Mobile App Landing Page**](https://demosites.royal-elementor-addons.com/landing-page-mobileapp-v1/?ref=rea-wpo-pp-details-tab)
 - [**Investment Landing Page**](https://demosites.royal-elementor-addons.com/landing-page-investment-platform-v1/?ref=rea-wpo-pp-details-tab)
@@ -445,6 +447,15 @@ memory_limit 256M or more
 post_max_size 64M
 
 == Changelog ==
+= Royal Elementor Addons v1.3.91 - 2024-02-18 =
+* ADDED: Wooshop V2 Template Kit [**Wooshop V2**](https://demosites.royal-elementor-addons.com/shop-wooshop-v2/?ref=rea-wpo-pp-details-tab).
+
+= Royal Elementor Addons v1.3.90 - 2024-02-15 =
+* ADDED: AI Matrix - Data, Machines & AI Template Kit [**AI Matrix - Data, Machines & AI**](https://demosites.royal-elementor-addons.com/aimatrix-v1/?ref=rea-wpo-pp-details-tab).
+
+= Royal Elementor Addons v1.3.89 - 2024-02-08 =
+* ADDED: Amazon Product Landing Page Template Kit [**Amazon Product Landing Page**](https://demosites.royal-elementor-addons.com/amazon-landing-page-v1/?ref=rea-wpo-pp-details-tab).
+
 = Royal Elementor Addons v1.3.88 - 2024-02-06 =
 * FIXED: Minor Bugs.
 * ADDED: Designer Bio Template Kit [**Designer Bio**](https://demosites.royal-elementor-addons.com/designer-bio-v1/?ref=rea-wpo-pp-details-tab).
