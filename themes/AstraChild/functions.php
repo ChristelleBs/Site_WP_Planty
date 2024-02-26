@@ -36,7 +36,6 @@ function theme_enqueue_styles()
 }
 
 // Fonction pour ajouter un lien "Admin" dans le menu pour les utilisateurs connectés
-
 add_filter( 'wp_nav_menu_items', 'prefix_add_menu_item', 10, 2 );
 
 function prefix_add_menu_item( $items, $args ) {
@@ -58,3 +57,4 @@ function prefix_add_menu_item( $items, $args ) {
 
     return $items;
 }
+?>

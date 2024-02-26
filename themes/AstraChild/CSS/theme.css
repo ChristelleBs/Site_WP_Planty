@@ -3,8 +3,6 @@
     src: url('../fonts/Syne-VariableFont_wght.ttf') format('truetype');
 }
 
-
-
 /* Header - Menu */
 .hfe-menu-item {
     font-family: 'Syne', 'Times New Roman', Times, serif !important;
@@ -23,7 +21,7 @@
     z-index: 10;
 }
 
-.elementor-heading-title elementor-size-default {
+.elementor-heading-title .elementor-size-default {
     align-items: center !important;
 }
 
@@ -35,13 +33,13 @@
 
 /* Hook */
 .menu-admin {
-    font-family: 'syne', 'Times New Roman', Times, serif;
+    font-family: 'Syne', 'Times New Roman', Times, serif;
     color: black;
 }
 
-:hover.menu-admin {
+.menu-admin:hover {
     color: black;
-    transform: scale(0.75);
+    font-size: 0.75em;
 }
 
 /*1er séparateur*/
@@ -50,10 +48,8 @@
     width: 74%;
     height: 1px;
     background-color: white;
-    margin: 50px 200px;
+    margin: 50px auto;
 }
-
-
 
 /* number-box img */
 
@@ -84,19 +80,17 @@
 
 .contain-number ul li span {
     display: block;
-    text-align: center;
     padding-top: 15px;
     transform: translateX(60%);
     height: 57px;
     width: 56px;
-    border-color: none;
 }
 
 /* Formulaire */
 .form {
     background-color: #3B8E46;
     width: 100%;
-    padding-top: -20px;
+    padding-top: 0;
 }
 
 .form h2 {
@@ -109,7 +103,7 @@
 .wpcf7-form-control-wrap .wpcf7-text {
     height: 71px;
     width: 383px;
-   
+
 }
 
 .form ul li {
@@ -140,7 +134,7 @@
 
 .label {
     font-family: 'Syne', 'Times New Roman', Times, serif;
-    font-style: 20px;
+    font-size: 20px;
     color: white;
 }
 
@@ -157,7 +151,7 @@
 
 input[type="submit"] {
     font-family: 'Syne', 'Times New Roman', Times, serif;
-    font-style: 20px;
+    font-size: 20px;
     color: white;
     background-color: #E0B9B4;
     height: 55px;
@@ -172,9 +166,9 @@ input[type="submit"]:hover {
 /*Media query : max-width:768px*/
 /* MQ 768px Formulaire*/
 @media screen and (max-width: 768px) {
-    .form {
+    /* .form {
         height: 1500px;
-    }
+    } */
 
     .contain-number ul li span {
         margin-bottom: 55px;
@@ -194,7 +188,8 @@ input[type="submit"]:hover {
         width: 90%;
         margin: 0 auto;
     }
-    .btn-form{
+
+    .btn-form {
         padding: 20px 0 0 73px;
     }
 }
@@ -202,21 +197,27 @@ input[type="submit"]:hover {
 
 /*Media query : max-width:320px*/
 
-@media screen and (max-width: 320px) {
+@media screen and (main-width: 320px) {
 
     /* MQ 320px Formulaire*/
-    .form {
+    /* .form {
         height: 1850px;
+    } */
+
+    .form h2 {
+        font-size: 25px !important;
     }
 
     .contain-number ul li {
-       padding-right: 30px;
-       
+        padding-right: 30px;
+
     }
-    .contain-number ul li span{
+
+    .contain-number ul li span {
         padding-right: 5px;
-         
+
     }
+
     .contain-form {
         flex-direction: column;
     }
