@@ -45,7 +45,7 @@
 /*1er séparateur*/
 
 .separator-1 {
-    width: 74%;
+    width: 74% !important;
     height: 1px;
     background-color: white;
     margin: 50px auto;
@@ -62,6 +62,7 @@
     width: 85%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .contain-number ul li {
@@ -71,6 +72,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .contain-number ul li img {
@@ -83,7 +85,7 @@
     padding-top: 15px;
     transform: translateX(60%);
     height: 57px;
-    width: 56px;
+    width: 58px !important;
 }
 
 /* Formulaire */
@@ -119,6 +121,7 @@
     justify-content: space-evenly;
     padding-top: 30px;
     width: 100%;
+    margin: 50px 0 50px;
 }
 
 .separator {
@@ -165,10 +168,8 @@ input[type="submit"]:hover {
 
 /*Media query : max-width:768px*/
 /* MQ 768px Formulaire*/
-@media screen and (max-width: 768px) {
-    /* .form {
-        height: 1500px;
-    } */
+/* @media screen and (max-width: 768px) { */
+@media screen and (max-width: 1100px) and (min-width: 768px) {
 
     .contain-number ul li span {
         margin-bottom: 55px;
@@ -189,59 +190,26 @@ input[type="submit"]:hover {
         margin: 0 auto;
     }
 
+    .separator {
+        display: none;
+    }
+
     .btn-form {
         padding: 20px 0 0 73px;
     }
 }
 
 
-/*Media query : max-width:320px*/
-
-@media screen and (main-width: 320px) {
-
-    /* MQ 320px Formulaire*/
-    /* .form {
-        height: 1850px;
-    } */
+/*Media query : min-width:320px*/
+/* MQ 320px Formulaire*/
+@media screen and (min-width: 320px) {
 
     .form h2 {
         font-size: 25px !important;
     }
 
-    .contain-number ul li {
-        padding-right: 30px;
-
-    }
-
-    .contain-number ul li span {
-        padding-right: 5px;
-
-    }
-
-    .contain-form {
-        flex-direction: column;
-    }
-
-    .part-left,
-    .part-right {
-        position: relative;
-        padding: 0;
-        margin: 0 auto;
-        flex-direction: column;
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
     .separator-1 {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-
-    .part-left h2,
-    .part-right h2 {
-        margin-top: 0;
-        font-size: 20px;
+        margin-top: 40px;
     }
 
     .btn-form {
