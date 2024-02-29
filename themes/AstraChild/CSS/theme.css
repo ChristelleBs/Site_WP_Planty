@@ -84,8 +84,14 @@
     display: block;
     padding-top: 15px;
     transform: translateX(60%);
-    height: 57px;
-    width: 58px !important;
+    height: 56px;
+    width: 42px !important;
+    margin-left: 10px;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 /* Formulaire */
